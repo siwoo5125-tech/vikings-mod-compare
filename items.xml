@@ -2234,8 +2234,8 @@
 		        <passive_effect name="ModSlots" operation="base_set" value="1,1,1,2,2,3" tier="1,2,3,4,5,6"/>
 		        <passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		        <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		        <passive_effect name="EntityDamage" operation="base_set" value="15" tags="perkDeepCuts,knife"/> 
-		        <passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeepCuts"/>
+		        <passive_effect name="EntityDamage" operation="base_set" value="15" /> 
+		        <passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkDeepCuts" />
 		        <passive_effect name="BlockDamage" operation="base_set" value="22" tags="perkMiner69r"/>
 		        <passive_effect name="BlockDamage" operation="perc_add" value="-.04,.04" tags="perkMiner69r"/> 
 		        <passive_effect name="BlockDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/>
@@ -2686,10 +2686,10 @@
 		<passive_effect name="ModSlots" operation="base_set" value="2,2,2,3,3,4" tier="1,2,3,4,5,6"/>
 		<passive_effect name="ModPowerBonus" operation="perc_add" value=".10" tags="EntityDamage,BlockDamage"/>
 		<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
-		<passive_effect name="EntityDamage" operation="base_set" value="11.2" tags="perkMiner69r"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="15.2" tags="perkMiner69r"/>
 		<passive_effect name="EntityDamage" operation="perc_add" value="-.04,.04" tags="perkMiner69r"/> 
 		<passive_effect name="EntityDamage" operation="perc_add" value=".1,.5" tier="2,6" tags="perkMiner69r"/> 
-		<passive_effect name="BlockDamage" operation="base_set" value="42" tags="perkMiner69r,miningTool"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="54" tags="perkMiner69r,miningTool"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value="-.04,.04" tags="perkMiner69r"/>
 		<passive_effect name="BlockDamage" operation="perc_add" value=".15,.75" tier="2,6" tags="perkMiner69r"/>
 		<passive_effect name="DamageModifier" operation="perc_add" value="-.8" tags="wood"/>
